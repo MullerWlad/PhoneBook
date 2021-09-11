@@ -1,0 +1,11 @@
+--> This is phone book application
+    --> Only demo version
+        --> Includes media queries, 
+            gulp tasks in production for sass, pug,
+            Vue application for client part --> Sign in only, using data.json as logs
+                                                --> No databases
+                                                    --> No backend
+                                                        --> Only adding phone items
+                                                            --> Only downloading phone items
+                                                                --> No changing phone items
+                                                                    --> No searching

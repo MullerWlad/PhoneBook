@@ -1,0 +1,12 @@
+.display-horison.display-norm.space-center(v-if="loginQ")
+    form(name="login" method="GET" action="").display-vertical.display-norm
+        .img-block.title
+        label Login
+            input(type="radio" name="check" checked v-on:click="typeLogin = 'Login'")
+        label Sign in
+            input(type="radio" name="check" v-on:click="typeLogin = 'Sign in'")
+        label Email
+            input(type="email" autocomplete="off" required maxlength="40" oninvalid="this.setCustomValidity(' ')" v-model="email")
+        label Password
+            input(type="password" autocomplete="off" required maxlength="10" oninvalid="this.setCustomValidity(' ')" v-model="password")
+        button(v-on:click="connectingLogs()") {{typeLogin}}

@@ -1,0 +1,7 @@
+.display-horison.space-between.display-norm(v-for="d in data[email]")
+    .img-block(v-bind:style="")
+    .display-vertical.space-around
+        input(v-bind:value="d.name" maxlength="40")
+        input(v-bind:value="d.desc" maxlength="40")
+        input(v-bind:value="d.phone" maxlength="30")
+    p.display-vertical.space-center.display-norm &#10006

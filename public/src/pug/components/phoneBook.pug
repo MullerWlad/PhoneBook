@@ -1,0 +1,8 @@
+.display-horison.display-norm.space-center(v-if="!loginQ")
+    .phone-display.display-vertical.space-between.display-norm
+        .display-horison.space-around.display-norm
+            input(type="text" placeholder="search...")
+            p.display-vertical.space-center.display-norm(v-on:click="addNew()") Add new
+        .display-vertical.display-norm
+            h1(v-if="data[email].length == 0 ? true : false") Phone data
+            include ../../pug/components/phoneItem

@@ -1,0 +1,15 @@
+@font-face {
+    font-family: reg;
+    src: url(../fonts/CynthoNext-Regular.ttf);
+}
+@font-face {
+    font-family: semi;
+    src: url(../fonts/CynthoNext-SemiBold.ttf);
+}
+
+.regular{
+    font-family: reg;
+}
+.semi{
+    font-family: semi;
+}

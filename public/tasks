@@ -1,0 +1,9 @@
+--> Backend --> database
+            --> sign in (not like a demo)
+            --> login (not like a demo)
+            --> adding phone item in database
+            --> removing phone items from database --> Frontend --> removing phone items from panel
+                                                                --> searching 
+                                                                --> changing phone items -->
+-->         --> changing phone items in database
+--> do better
