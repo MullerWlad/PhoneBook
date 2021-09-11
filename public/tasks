@@ -4,6 +4,7 @@
             --> adding phone item in database
             --> removing phone items from database --> Frontend --> removing phone items from panel
                                                                 --> searching 
+                                                                --> adding v-style="background-image=url(/from database/)"
                                                                 --> changing phone items -->
 -->         --> changing phone items in database
 --> do better
